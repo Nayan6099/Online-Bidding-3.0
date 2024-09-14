@@ -1,0 +1,49 @@
+<!-- register page html                                                                                                                                                     <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="auction_id">Auction ID:</label>
+                <input type="text" id="auction_id" name="auction_id" required>
+            </div>
+            <div class="form-group">
+                <label for="date_criteria">Date Criteria:</label>
+                <select id="date_criteria" name="date_criteria" required>
+                    <option value="upcoming">Upcoming Auctions</option>
+                    <option value="completed">Completed Auctions</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="auction_company">Auction Company Name:</label>
+                <input type="text" id="auction_company" name="auction_company" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
+*
